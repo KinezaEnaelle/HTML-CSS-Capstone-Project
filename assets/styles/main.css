@@ -235,4 +235,31 @@ body {
 .footer-container {
   margin: 30px 250px 0 250px;
 }
+
+.middle-footer h5 {
+  color: #d35266;
+  font-size: 18px;
+}
+
+.middleish h5 {
+  color: #d35266;
+  font-size: 18px;
+}
+
+.right-footer h6 {
+  color: #d35266;
+}
+
+.footer-links a {
+  color: #888888;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.select {
+  width: 150px;
+  height: 30px;
+  border: 1px solid #888888;
+  margin-left: 30px;
+}
 /*# sourceMappingURL=main.css.map */
