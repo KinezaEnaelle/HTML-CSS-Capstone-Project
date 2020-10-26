@@ -1,2 +1,102 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
 @import url(reset.css);
+body {
+  position: relative;
+  width: 100%;
+  height: auto;
+  line-height: 1.5;
+  overflow-x: hidden;
+  font-family: "Roboto", serif;
+  min-width: 350px;
+}
+
+.nav {
+  padding: 10px;
+  margin: 0 auto;
+  background: #383838;
+  border-bottom: 2px solid #383838;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav a {
+  text-decoration: none;
+}
+
+.nav a:hover {
+  color: #888888;
+}
+
+.logo-heading {
+  font-size: 20px;
+}
+
+.logo {
+  width: 41px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #d35266;
+  color: #d35266;
+}
+
+.left-nav {
+  margin-left: 250px;
+}
+
+.right-nav {
+  margin-right: 200px;
+}
+
+.profile {
+  width: 41px;
+  height: 43px;
+  border-radius: 50%;
+}
+
+.iconify {
+  color: white;
+  font-size: 15px;
+  padding-top: 2px;
+}
+
+.nav-links {
+  padding-top: 6px;
+}
+
+.home {
+  color: #d35266;
+}
+
+.text {
+  color: white;
+  font-size: 15px;
+}
+
+.post {
+  background-color: #d35266;
+  color: white;
+}
+
+.mail {
+  position: relative;
+  color: white;
+  font-size: 25px;
+}
+
+.mail-num {
+  position: absolute;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  top: 0;
+  bottom: 3px;
+  width: 1.3rem;
+  height: 1.3rem;
+  color: white;
+  background-color: #d35266;
+  font-size: 15px;
+}
+/*# sourceMappingURL=main.css.map */
