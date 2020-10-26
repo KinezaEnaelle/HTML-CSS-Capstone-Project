@@ -2,7 +2,6 @@ body {
   position: relative;
   width: 100%;
   height: auto;
-//   font-size: 14px;
   line-height: 1.5;
   overflow-x: hidden;
   font-family: "Roboto", serif;
@@ -19,7 +18,7 @@ body {
 
   a {
     text-decoration: none;
-    
+
     &:hover {
       color: #888888;
     }
@@ -54,32 +53,30 @@ body {
 .nav-links {
   padding-top: 6px;
 }
-.home{
-    color: #d35266;
+.home {
+  color: #d35266;
 }
-.text{
-    color: white;
-    font-size: 15px;
+.text {
+  color: white;
+  font-size: 15px;
 }
-.post{
-   background-color: #d35266;
-   color: white;
+.post {
+  background-color: #d35266;
+  color: white;
 }
-.mail{
-    position: relative;
-    color: white;
-    font-size: 25px;
+.mail {
+  position: relative;
+  color: white;
+  font-size: 25px;
 }
-.mail-num{
-    position: absolute;
-    align-items: center;
-    top: 0;
-    // right: -0.5rem;
-    bottom: 3px;
-    width: 1.3rem;
-    height: 1.3rem;
-    color: white;
-    background-color: #d35266;
-    font-size: 15px;
-
+.mail-num {
+  position: absolute;
+  align-items: center;
+  top: 0;
+  bottom: 3px;
+  width: 1.3rem;
+  height: 1.3rem;
+  color: white;
+  background-color: #d35266;
+  font-size: 15px;
 }

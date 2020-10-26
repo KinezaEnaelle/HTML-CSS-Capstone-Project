@@ -1,0 +1,35 @@
+.search-section {
+  background-color: #d35266;
+  border-bottom: 2px solid #d35266;
+}
+.search-container {
+  margin: 0px 250px 50px 250px;
+  h2 {
+    color: white;
+    align-items: center;
+  }
+  p {
+    color: white;
+    font-size: 15px;
+    align-items: center;
+  }
+}
+.search-select {
+  width: 245px;
+  height: 45px;
+}
+.search-input {
+  width: 245px;
+  height: 45px;
+}
+.search-input2 {
+  width: 245px;
+  height: 45px;
+}
+.search-button {
+  // width: 145px;
+  // height: 45px;
+  background-color: #383838;
+  font-size: 20px;
+  color: white;
+}
