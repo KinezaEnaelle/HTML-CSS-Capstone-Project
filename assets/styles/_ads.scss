@@ -1,4 +1,49 @@
+// .ads-section{
+//     background-color: lightgrey;
+    
+// }
+.ads-container{
+    margin: 0 250px 50px 250px;
+}
 .shoes{
     width: 270px;
     height: 280px;
+}
+.description h4{
+    color: #d35266;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.description p{
+    font-size: 15px;
+    color: #888888;
+}
+.p{
+    font-weight: 700;
+}
+.author{
+    color: #888888;
+}
+.iconify{
+    font-size: 20px;
+    color: white;
+    padding-top: 8px;
+}
+.money{
+    width: 150px;
+    height: 85px;
+    border: 1px solid #d35266;
+    color: white;
+    background-color: #d35266;
+    font-size: 15px;
+    border-radius: 3px;
+}
+.item{
+    width: 195px;
+    height: 85px;
+    border: 1px solid #d35266;
+    background-color: #d35266;
+    color: white;
+    font-size: 15px;
+    border-radius: 3px;
 }
