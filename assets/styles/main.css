@@ -1,5 +1,4 @@
 @import url(reset.css);
-
 body {
   position: relative;
   width: 100%;
@@ -19,18 +18,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-}
-.logo-footer a {
-  color: #888;
-  font-size: 25px;
-  font-weight: 700;
-}
-.footer-links a {
-  color: #888;
-  font-size: 15px;
-  text-decoration: none;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .nav a {
@@ -102,8 +91,8 @@ body {
 .mail-num {
   position: absolute;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   top: 0;
   bottom: 3px;
   width: 1.3rem;
@@ -125,8 +114,8 @@ body {
 .search-container h2 {
   color: white;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-left: 350px;
   padding-top: 40px;
 }
@@ -185,6 +174,13 @@ body {
 .author {
   color: #888;
 }
+
+.iconify {
+  font-size: 20px;
+  color: white;
+  padding-top: 8px;
+}
+
 .money {
   width: 150px;
   height: 85px;
@@ -269,6 +265,12 @@ body {
   margin: 30px 250px 0 250px;
 }
 
+.logo-footer a {
+  color: #888;
+  font-size: 25px;
+  font-weight: 700;
+}
+
 .middle-footer h5 {
   color: #d35266;
   font-size: 18px;
@@ -284,6 +286,12 @@ body {
 .right-footer h6 {
   color: #d35266;
   font-weight: 700;
+}
+
+.footer-links a {
+  color: #888;
+  font-size: 15px;
+  text-decoration: none;
 }
 
 .select {
@@ -326,3 +334,4 @@ body {
   font-size: 15px;
   margin: 0 250px 10px 250px;
 }
+/*# sourceMappingURL=main.css.map */
