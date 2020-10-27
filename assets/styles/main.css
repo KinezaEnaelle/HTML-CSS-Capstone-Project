@@ -298,4 +298,21 @@ body {
   border: 1px solid #888888;
   margin-left: 30px;
 }
+
+.result-section {
+  background-color: #f6f6f6;
+}
+
+.result-section hr {
+  margin: 0 0 10px 250px;
+}
+
+.result-container {
+  border: 1px solid #888888;
+}
+
+.title {
+  font-size: 15px;
+  margin: 0 250px 10px 250px;
+}
 /*# sourceMappingURL=main.css.map */

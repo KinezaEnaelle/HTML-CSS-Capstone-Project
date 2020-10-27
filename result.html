@@ -32,68 +32,249 @@
     <link rel="stylesheet" href="/assets/styles/main.css" />
   </head>
   <body>
-  <header>
-    <!--NAVBAR SECTION-->
-    <nav class="nav">
-      <div class="left-nav d-flex">
-        <div class="logo-heading">
-          <img src="assets/images/logo.jpg" alt="logo" class="logo pr-5">
-         <a href="#" class="text-white pr-5">HEELZ</a>
+    <header>
+      <!--NAVBAR SECTION-->
+      <nav class="nav">
+        <div class="left-nav d-flex">
+          <div class="logo-heading">
+            <img src="assets/images/logo.jpg" alt="logo" class="logo pr-5" />
+            <a href="#" class="text-white pr-5">HEELZ</a>
+          </div>
+          <ul
+            class="nav-links textbar-bold list-unstyled d-flex justify-content-between"
+          >
+            <li class="text-item pr-3">
+              <span
+                class="iconify home"
+                data-icon="bi:house-door"
+                data-inline="false"
+              ></span
+              ><a href="#" class="home"> HOME</a>
+            </li>
+            <li class="text-item pr-3">
+              <span
+                class="iconify"
+                data-icon="codicon:gift"
+                data-inline="false"
+              ></span
+              ><a href="#" class="text"> COLLECTIONS</a>
+            </li>
+            <li class="text-item pr-3">
+              <span
+                class="iconify"
+                data-icon="bi:cart"
+                data-inline="false"
+              ></span
+              ><a href="#" class="text"> CART</a>
+            </li>
+          </ul>
+          <button type="button" class="post btn btn-md">POST AN AD</button>
         </div>
-         <ul class="nav-links textbar-bold list-unstyled d-flex justify-content-between">
-           <li class="text-item pr-3"><span class="iconify home" data-icon="bi:house-door" data-inline="false"></span><a href="#" class="home"> HOME</a></li>
-           <li class="text-item pr-3"><span class="iconify" data-icon="codicon:gift" data-inline="false"></span><a href="#" class="text"> COLLECTIONS</a></li>
-           <li class="text-item pr-3"><span class="iconify" data-icon="bi:cart" data-inline="false"></span><a href="#" class="text"> CART</a></li>
-         </ul>
-       <button type="button" class="post btn btn-md">POST AN AD</button>
-      </div>
-      <div class="right-nav d-flex justify-content-between">
-        <div class="pr-3">
-          <span class="iconify mail" data-icon="bx:bx-envelope" data-inline="false"></span><a href="#"></a>
-          <span class="mail-num">5</span>
-        </div>
+        <div class="right-nav d-flex justify-content-between">
+          <div class="pr-3">
+            <span
+              class="iconify mail"
+              data-icon="bx:bx-envelope"
+              data-inline="false"
+            ></span
+            ><a href="#"></a>
+            <span class="mail-num">5</span>
+          </div>
           <div class="pr-3">
             <a href="#" class="text">Orly Cleita</a>
           </div>
           <div class="pr-3">
-            <img src="assets/images/profile.jpg" alt="profile" class="profile">
-          </div> 
+            <img
+              src="assets/images/profile.jpg"
+              alt="profile"
+              class="profile"
+            />
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!--SEARCH SECTION-->
+      <section class="search-section">
+        <div class="search-container">
+          <h2>HEELZ</h2>
+          <p>Search around 500,000 items are waiting to be sold!</p>
+          <form class="search-form">
+            <select name="categories" class="search-select">
+              <option value="stilletos">Stilletos</option>
+              <option value="ankle-strap">Ankle Strap</option>
+              <option value="boots">Boots</option>
+              <option value="wedge">Wedge</option>
+              <option value="pumps">Pumps</option>
+            </select>
+            <input
+              type="text"
+              placeholder="What do you search for"
+              class="search-input"
+            />
+            <input type="text" placeholder="Boots" class="search-input2" />
+            <a href="#" class="search-button btn-lg" role="button">Search</a>
+          </form>
+        </div>
+      </section>
+      <!--RESULT SECTION-->
+      <section class="result-section">
+        <div>
+          <p class="title">138 Results for <b>"Boots"</b> Search Produced by <b>Heelz</b> in Category <b>Boots</b></p>
+        </div>
+        <hr>
+        <div class="ads-container row">
+          <div class="ads-img">
+            <img src="assets/images/boots1.jpg" alt="boots" class="shoes">
+          </div>
+        <div>
+        <div class="description">
+          <h4>Black Boots Heels</h4>
+          <p>Comfortable Khaki Lace up Platform Chunky Heel Boots Rock Motorcycle Boots you best choice for Party, <br>
+            Ball, Date, Anniversary, Going out, Hanging out...</p>
+        </div>
+        <div class="brand">
+          <p class="new font-weight-bold">New</p>
+          <p class="p">Brand: <span class="author">  Heelz</span></p>
+        </div>
+        <div class="d-flex justify-content-between">
+          <p>27 OCT 2020</p>
+        <div class="purchase">
+          <span class="money">320$</span>
+         <a href="#" class="item"><span class="iconify" data-icon="ant-design:shopping-cart-outlined" data-inline="false"></span></span>Purchase item</a> 
+        </div>
       </div>
-    </nav>
-  </header>
-  <main>
-    <!--SEARCH SECTION-->
-    <section class="search-section">
-      <div class="search-container">
-      <h2>HEELZ</h2>
-      <p>Search around 500,000 items are waiting to be sold!</p>
-      <form class="search-form">
-        <select name="categories" class="search-select">
-          <option value="stilletos">Stilletos</option>
-          <option value="ankle-strap">Ankle Strap</option>
-          <option value="boots">Boots</option>
-          <option value="wedge">Wedge</option>
-          <option value="pumps">Pumps</option>
-        </select>
-        <input type="text" placeholder="What do you search for" class="search-input">
-        <input type="text" placeholder="XOXOXO" class="search-input2">
-        <a href="#" class="search-button btn-lg" role="button">Search</a>
-      </form>
-    </div>
-  </section>
-  </main>
-  <!--FOOTER SECTION-->
-  <footer class="footer-container row">
-    <div class="left-footer pr-5">
-      <div class="logo-footer">
-        <img src="assets/images/logo.jpg" alt="logo" class="logo pr-5">
-       <a href="#" class="pr-5">HEELZ</a>
-       <p>lorem ipsum</p>
+      </div>
+      </div>
+      <div class="ads-container row">
+        <div class="ads-img">
+          <img src="assets/images/boots2.jpg" alt="boots" class="shoes">
+        </div>
+      <div>
+      <div class="description">
+        <h4>Black Boots Heels</h4>
+        <p>Comfortable Khaki Lace up Platform Chunky Heel Boots Rock Motorcycle Boots you best choice for Party, <br>
+          Ball, Date, Anniversary, Going out, Hanging out...</p>
+      </div>
+      <div class="brand">
+        <p class="new font-weight-bold">New</p>
+        <p class="p">Brand: <span class="author">  Heelz</span></p>
+      </div>
+      <div class="d-flex justify-content-between">
+        <p>27 OCT 2020</p>
+      <div class="purchase">
+        <span class="money">320$</span>
+       <a href="#" class="item"><span class="iconify" data-icon="ant-design:shopping-cart-outlined" data-inline="false"></span></span>Purchase item</a> 
       </div>
     </div>
+    </div>
+    </div>
+    <div class="ads-container row">
+      <div class="ads-img">
+        <img src="assets/images/boots 3.jpg" alt="boots" class="shoes">
+      </div>
+    <div>
+    <div class="description">
+      <h4>Black Boots Heels</h4>
+      <p>Comfortable Khaki Lace up Platform Chunky Heel Boots Rock Motorcycle Boots you best choice for Party, <br>
+        Ball, Date, Anniversary, Going out, Hanging out...</p>
+    </div>
+    <div class="brand">
+      <p class="new font-weight-bold">New</p>
+      <p class="p">Brand: <span class="author">  Heelz</span></p>
+    </div>
+    <div class="d-flex justify-content-between">
+      <p>27 OCT 2020</p>
+    <div class="purchase">
+      <span class="money">320$</span>
+     <a href="#" class="item"><span class="iconify" data-icon="ant-design:shopping-cart-outlined" data-inline="false"></span></span>Purchase item</a> 
+    </div>
+  </div>
+  </div>
+  </div>
+  <div class="ads-container row">
+    <div class="ads-img">
+      <img src="assets/images/boots4.jpg" alt="boots" class="shoes">
+    </div>
+  <div>
+  <div class="description">
+    <h4>Black Boots Heels</h4>
+    <p>Comfortable Khaki Lace up Platform Chunky Heel Boots Rock Motorcycle Boots you best choice for Party, <br>
+      Ball, Date, Anniversary, Going out, Hanging out...</p>
+  </div>
+  <div class="brand">
+    <p class="new font-weight-bold">New</p>
+    <p class="p">Brand: <span class="author">  Heelz</span></p>
+  </div>
+  <div class="d-flex justify-content-between">
+    <p>27 OCT 2020</p>
+  <div class="purchase">
+    <span class="money">320$</span>
+   <a href="#" class="item"><span class="iconify" data-icon="ant-design:shopping-cart-outlined" data-inline="false"></span></span>Purchase item</a> 
+  </div>
+</div>
+</div>
+</div>
+<div class="ads-container row">
+  <div class="ads-img">
+    <img src="assets/images/boots5.jpg" alt="boots" class="shoes">
+  </div>
+<div>
+<div class="description">
+  <h4>Black Boots Heels</h4>
+  <p>Comfortable Khaki Lace up Platform Chunky Heel Boots Rock Motorcycle Boots you best choice for Party, <br>
+    Ball, Date, Anniversary, Going out, Hanging out...</p>
+</div>
+<div class="brand">
+  <p class="new font-weight-bold">New</p>
+  <p class="p">Brand: <span class="author">  Heelz</span></p>
+</div>
+<div class="d-flex justify-content-between">
+  <p>27 OCT 2020</p>
+<div class="purchase">
+  <span class="money">320$</span>
+ <a href="#" class="item"><span class="iconify" data-icon="ant-design:shopping-cart-outlined" data-inline="false"></span></span>Purchase item</a> 
+</div>
+</div>
+</div>
+</div>
+<div class="ads-container row">
+  <div class="ads-img">
+    <img src="assets/images/boots6.webp" alt="boots" class="shoes">
+  </div>
+<div>
+<div class="description">
+  <h4>Black Boots Heels</h4>
+  <p>Comfortable Khaki Lace up Platform Chunky Heel Boots Rock Motorcycle Boots you best choice for Party, <br>
+    Ball, Date, Anniversary, Going out, Hanging out...</p>
+</div>
+<div class="brand">
+  <p class="new font-weight-bold">New</p>
+  <p class="p">Brand: <span class="author">  Heelz</span></p>
+</div>
+<div class="d-flex justify-content-between">
+  <p>27 OCT 2020</p>
+<div class="purchase">
+  <span class="money">320$</span>
+ <a href="#" class="item"><span class="iconify" data-icon="ant-design:shopping-cart-outlined" data-inline="false"></span></span>Purchase item</a> 
+</div>
+</div>
+</div>
+</div>
+      </section>
+    </main>
+    <!--FOOTER SECTION-->
+    <footer class="footer-container row">
+      <div class="left-footer pr-5">
+        <div class="logo-footer">
+          <img src="assets/images/logo.jpg" alt="logo" class="logo pr-5" />
+          <a href="#" class="pr-5">HEELZ</a>
+          <p>lorem ipsum</p>
+        </div>
+      </div>
       <div class="middle-footer pr-5">
         <h5>CATEGORIES</h5>
-        <hr>
+        <hr />
         <ul class="footer-links">
           <li><a href="#">Boots</a></li>
           <li><a href="#">Boots</a></li>
@@ -104,7 +285,7 @@
       </div>
       <div class="middleish pr-5">
         <h5>NAVIGATION</h5>
-        <hr>
+        <hr />
         <ul class="footer-links">
           <li><a href="#">Home</a></li>
           <li><a href="#">Home</a></li>
@@ -146,10 +327,7 @@
           </select>
         </div>
       </div>
-  </footer>
-
-
-
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
