@@ -1,48 +1,59 @@
 .product-section {
   background-color: #f6f6f6;
+
   hr {
     margin: 20px 250px 50px 250px;
   }
 }
+
 .heading-container {
   margin: 0 250px 0 250px;
 }
+
 .heading-container h4 {
   font-size: 23px;
   font-weight: 700;
   padding-top: 10px;
 }
+
 .heading-container p {
   font-size: 19px;
-  color: #888888;
+  color: #888;
   padding-top: 10px;
 }
+
 .icon {
   font-size: 35px;
   color: #383838;
 }
+
 .product-wrapper {
   margin: 0 250px 0 250px;
 }
-.card{
+
+.card {
   width: 270px;
   height: 150px;
   font-size: 18px;
 }
-.new{
+
+.new {
   color: #d35266;
 }
-.add{
+
+.add {
   border: 1px solid #d35266;
   color: white;
   font-size: 35px;
   padding-bottom: 3px;
   background-color: #d35266;
 }
-.price{
+
+.price {
   color: #d35266;
   margin-bottom: 0%;
 }
-.company{
-  color: #888888;
+
+.company {
+  color: #888;
 }
