@@ -150,7 +150,7 @@ body {
 }
 
 .shoes {
-  width: 270px;
+  width: 282px;
   height: 280px;
 }
 
@@ -230,6 +230,33 @@ body {
 
 .product-wrapper {
   margin: 0 250px 0 250px;
+}
+
+.card {
+  width: 270px;
+  height: 150px;
+  font-size: 18px;
+}
+
+.new {
+  color: #d35266;
+}
+
+.add {
+  border: 1px solid #d35266;
+  color: white;
+  font-size: 35px;
+  padding-bottom: 3px;
+  background-color: #d35266;
+}
+
+.price {
+  color: #d35266;
+  margin-bottom: 0%;
+}
+
+.company {
+  color: #888888;
 }
 
 .footer-container {
