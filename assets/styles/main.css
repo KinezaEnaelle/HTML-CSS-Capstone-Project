@@ -263,6 +263,12 @@ body {
   margin: 30px 250px 0 250px;
 }
 
+.logo-footer a {
+  color: #888888;
+  font-size: 25px;
+  font-weight: 700;
+}
+
 .middle-footer h5 {
   color: #d35266;
   font-size: 18px;
