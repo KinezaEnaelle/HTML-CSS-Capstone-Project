@@ -21,7 +21,7 @@
       sizes="32x32"
       href="assets/images/logo.jpg"
     />
-    <title>HEELZ RESULT</title>
+    <title>HEELZ</title>
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
@@ -32,9 +32,122 @@
     <link rel="stylesheet" href="/assets/styles/main.css" />
   </head>
   <body>
-   <aside>
-       
-   </aside> 
+  <header>
+    <!--NAVBAR SECTION-->
+    <nav class="nav">
+      <div class="left-nav d-flex">
+        <div class="logo-heading">
+          <img src="assets/images/logo.jpg" alt="logo" class="logo pr-5">
+         <a href="#" class="text-white pr-5">HEELZ</a>
+        </div>
+         <ul class="nav-links textbar-bold list-unstyled d-flex justify-content-between">
+           <li class="text-item pr-3"><span class="iconify home" data-icon="bi:house-door" data-inline="false"></span><a href="#" class="home"> HOME</a></li>
+           <li class="text-item pr-3"><span class="iconify" data-icon="codicon:gift" data-inline="false"></span><a href="#" class="text"> COLLECTIONS</a></li>
+           <li class="text-item pr-3"><span class="iconify" data-icon="bi:cart" data-inline="false"></span><a href="#" class="text"> CART</a></li>
+         </ul>
+       <button type="button" class="post btn btn-md">POST AN AD</button>
+      </div>
+      <div class="right-nav d-flex justify-content-between">
+        <div class="pr-3">
+          <span class="iconify mail" data-icon="bx:bx-envelope" data-inline="false"></span><a href="#"></a>
+          <span class="mail-num">5</span>
+        </div>
+          <div class="pr-3">
+            <a href="#" class="text">Orly Cleita</a>
+          </div>
+          <div class="pr-3">
+            <img src="assets/images/profile.jpg" alt="profile" class="profile">
+          </div> 
+      </div>
+    </nav>
+  </header>
+  <main>
+    <!--SEARCH SECTION-->
+    <section class="search-section">
+      <div class="search-container">
+      <h2>HEELZ</h2>
+      <p>Search around 500,000 items are waiting to be sold!</p>
+      <form class="search-form">
+        <select name="categories" class="search-select">
+          <option value="stilletos">Stilletos</option>
+          <option value="ankle-strap">Ankle Strap</option>
+          <option value="boots">Boots</option>
+          <option value="wedge">Wedge</option>
+          <option value="pumps">Pumps</option>
+        </select>
+        <input type="text" placeholder="What do you search for" class="search-input">
+        <input type="text" placeholder="XOXOXO" class="search-input2">
+        <a href="#" class="search-button btn-lg" role="button">Search</a>
+      </form>
+    </div>
+  </section>
+  </main>
+  <!--FOOTER SECTION-->
+  <footer class="footer-container row">
+    <div class="left-footer pr-5">
+      <div class="logo-footer">
+        <img src="assets/images/logo.jpg" alt="logo" class="logo pr-5">
+       <a href="#" class="pr-5">HEELZ</a>
+       <p>lorem ipsum</p>
+      </div>
+    </div>
+      <div class="middle-footer pr-5">
+        <h5>CATEGORIES</h5>
+        <hr>
+        <ul class="footer-links">
+          <li><a href="#">Boots</a></li>
+          <li><a href="#">Boots</a></li>
+          <li><a href="#">Boots</a></li>
+          <li><a href="#">Boots</a></li>
+          <li><a href="#">Boots</a></li>
+        </ul>
+      </div>
+      <div class="middleish pr-5">
+        <h5>NAVIGATION</h5>
+        <hr>
+        <ul class="footer-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Home</a></li>
+        </ul>
+      </div>
+      <div class="right-footer pr-5">
+        <div class="country-form d-flex pr-3">
+          <h6>COUNTRY</h6>
+          <select name="country" class="select pr-3">
+            <option value="Rwanda">Rwanda</option>
+            <option value="Burundi">Burundi</option>
+            <option value="Tanzania">Tanzania</option>
+            <option value="Congo">Congo</option>
+            <option value="Kenya">Kenya</option>
+          </select>
+        </div>
+        <div class="language-form d-flex pr-3">
+          <h6>LANGUAGE</h6>
+          <select name="language" class="select pr-3">
+            <option value="English">English</option>
+            <option value="French">French</option>
+            <option value="Swahili">Swahili</option>
+            <option value="Spanish">Spanish</option>
+            <option value="Kinyarwanda">Kinyarwanda</option>
+          </select>
+        </div>
+        <div class="currency-form d-flex pr-3">
+          <h6>CURRENCY</h6>
+          <select name="currency" class="select pr-3">
+            <option value="U.S.Dollars">U.S.Dollars</option>
+            <option value="Kenyan shillings">Kenyan shillings</option>
+            <option value="Rwandan francs">Rwandan francs</option>
+            <option value="Tanzania shillings">Tanzania shillings</option>
+            <option value="Euro">Euro</option>
+          </select>
+        </div>
+      </div>
+  </footer>
+
 
 
 
