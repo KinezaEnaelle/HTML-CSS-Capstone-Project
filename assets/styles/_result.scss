@@ -2,6 +2,10 @@
   background-color: #f6f6f6;
   font-family: "Gotham Rounded", sans-serif;
 }
+.cont-res{
+  display: flex;
+  justify-content: space-around;
+}
 .result-container{
   display: flex;
   justify-content: space-between;
@@ -52,4 +56,9 @@
 }
 .page3{
   margin-right: 15px;
+}
+
+// CHECKBOX SECTION
+.checkbox-section{
+  border: 1px solid black;
 }

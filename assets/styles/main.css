@@ -391,6 +391,14 @@ body {
   font-family: "Gotham Rounded", sans-serif;
 }
 
+.cont-res {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
 .result-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -455,6 +463,10 @@ body {
 
 .page3 {
   margin-right: 15px;
+}
+
+.checkbox-section {
+  border: 1px solid black;
 }
 
 @font-face {
