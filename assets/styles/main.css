@@ -165,6 +165,10 @@ body {
   width: 10rem;
 }
 
+.ads-section {
+  font-family: "Nimbus", sans-serif;
+}
+
 .khaki {
   width: 282px;
   height: 250px;
@@ -221,6 +225,7 @@ body {
 .product-section {
   background-color: #f6f6f6;
   max-width: 100%;
+  font-family: "Nimbus", sans-serif;
 }
 
 .product-section hr {
@@ -235,13 +240,13 @@ body {
 }
 
 .heading-container h4 {
-  font-size: 23px;
+  font-size: 20px;
   font-weight: 700;
   padding-top: 10px;
 }
 
 .heading-container p {
-  font-size: 19px;
+  font-size: 15px;
   color: #888;
   padding-top: 10px;
 }
@@ -320,19 +325,19 @@ body {
 
 .logo-footer a {
   color: #888;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 700;
 }
 
 .middle-footer h5 {
   color: #d35266;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 700;
 }
 
 .middleish h5 {
   color: #d35266;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 700;
 }
 
@@ -388,7 +393,7 @@ body {
 
 .result-section {
   background-color: #f6f6f6;
-  font-family: "Gotham Rounded", sans-serif;
+  font-family: "Nimbus", sans-serif;
 }
 
 .cont-res {
@@ -449,6 +454,7 @@ body {
   background-color: white;
   border-radius: 3px;
   font-weight: 500;
+  padding: 7px;
 }
 
 .page2 {
@@ -459,6 +465,7 @@ body {
   background-color: #d35266;
   color: white;
   border-radius: 3px;
+  padding: 7px;
 }
 
 .page3 {
@@ -466,7 +473,11 @@ body {
 }
 
 .checkbox-section {
-  border: 1px solid black;
+  border-left: 1px solid #383838;
+  font-size: 15px;
+  margin-left: 200px;
+  padding: 30px;
+  font-size: 18px;
 }
 
 @font-face {
