@@ -1,12 +1,4 @@
-.ads-container {
-  margin: 0 250px 50px 250px;
-}
 
-.shoes {
-  width: 95%;
-  height: 54%;
-  object-fit: cover;
-}
 .khaki{
   width: 282px;
   height: 250px;
@@ -15,7 +7,6 @@
 .description h4 {
   color: #d35266;
   font-size: 20px;
-  margin-top: 20px;
 }
 
 .description p {
@@ -38,13 +29,14 @@
 }
 
 .money {
-  width: 150px;
+  min-width: 250px;
   height: 85px;
   border: 1px solid #d35266;
   color: white;
   background-color: #d35266;
   font-size: 15px;
   border-radius: 3px;
+  padding: 5px;
 }
 
 .item {
@@ -52,6 +44,7 @@
   height: 85px;
   border: 1px solid #d35266;
   background-color: #d35266;
+  padding: 5px;
   color: white;
   font-size: 15px;
   border-radius: 3px;

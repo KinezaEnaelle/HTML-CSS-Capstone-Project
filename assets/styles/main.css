@@ -129,33 +129,39 @@ body {
 .search-select {
   width: 245px;
   height: 45px;
+  margin-right: 0.1rem;
 }
 
 .search-input {
   width: 245px;
   height: 45px;
+  margin-right: 0.1rem;
 }
 
 .search-input2 {
   width: 245px;
   height: 45px;
+  margin-right: 0.8rem;
+}
+
+.search-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .search-button {
   background-color: #383838;
   font-size: 20px;
   color: white;
-}
-
-.ads-container {
-  margin: 0 250px 50px 250px;
-}
-
-.shoes {
-  width: 95%;
-  height: 54%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  padding: 10px;
+  width: 10rem;
 }
 
 .khaki {
@@ -168,7 +174,6 @@ body {
 .description h4 {
   color: #d35266;
   font-size: 20px;
-  margin-top: 20px;
 }
 
 .description p {
@@ -191,13 +196,14 @@ body {
 }
 
 .money {
-  width: 150px;
+  min-width: 250px;
   height: 85px;
   border: 1px solid #d35266;
   color: white;
   background-color: #d35266;
   font-size: 15px;
   border-radius: 3px;
+  padding: 5px;
 }
 
 .item {
@@ -205,6 +211,7 @@ body {
   height: 85px;
   border: 1px solid #d35266;
   background-color: #d35266;
+  padding: 5px;
   color: white;
   font-size: 15px;
   border-radius: 3px;
@@ -223,6 +230,7 @@ body {
 .heading-container {
   margin: 0 auto;
   width: 95%;
+  padding-top: 10px;
 }
 
 .heading-container h4 {
@@ -242,16 +250,9 @@ body {
   color: #383838;
 }
 
-.stilleto {
-  width: 95%;
-  height: 340px;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
 .brown-shoes {
-  width: 95%;
-  height: 340px;
+  width: 97%;
+  height: 300px !important;
 }
 
 .card-stilleto {
@@ -275,7 +276,7 @@ body {
 }
 
 .card {
-  width: 95%;
+  width: 97%;
   height: 150px;
   font-size: 18px;
 }
@@ -301,8 +302,18 @@ body {
   color: #888;
 }
 
+.product-icon {
+  width: 40px;
+  height: 28px;
+}
+
+.middle {
+  width: 70%;
+}
+
 .footer-container {
-  margin: 30px 250px 0 250px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .logo-footer a {
@@ -335,43 +346,114 @@ body {
 }
 
 .select {
-  width: 150px;
-  height: 30px;
-  border: 1px solid #888;
+  width: 100%;
+  height: 90%;
+  border: 1px solid #888888;
   margin-left: 30px;
+  margin-bottom: 0.5rem;
+  padding: 10px;
+}
+
+.country-select {
+  padding: 10px;
+  border: 1px solid #888888;
+  width: 50.5%;
+  height: 80%;
+  margin-left: 40px;
+  margin-bottom: 0.5rem;
 }
 
 .bottom-footer {
-  background-color: #f6f6f6;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 .copyright {
   font-size: 15px;
   color: #888;
   margin-left: 100px;
+  padding-bottom: 10px;
 }
 
 .social-icons {
   margin-right: 100px;
   font-size: 25px;
-  padding-bottom: 5px;
+  padding-bottom: 15px;
+}
+
+.left-footer p {
+  font-size: 16px;
 }
 
 .result-section {
   background-color: #f6f6f6;
 }
 
-.result-section hr {
-  margin: 0 0 10px 250px;
-}
-
 .result-container {
-  border: 1px solid #888;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .title {
   font-size: 15px;
   margin: 0 250px 10px 250px;
+}
+
+.result-image {
+  width: 262px;
+  height: 262px;
+}
+
+.box {
+  width: 60%;
+  border: 1px solid black;
+  margin-right: 20px;
+}
+
+.result-wrapper {
+  margin-left: 30px;
+}
+
+.result-display {
+  padding-left: 20px;
+}
+
+.page1 {
+  width: 35px;
+  height: 35px;
+  border: 1px solid black;
+}
+
+.page1 {
+  width: 35px;
+  height: 35px;
+  border: 1px solid black;
+}
+
+.page1 {
+  width: 35px;
+  height: 35px;
+  border: 1px solid black;
+}
+
+.page1 {
+  width: 35px;
+  height: 35px;
+  border: 1px solid black;
+}
+
+.page1 {
+  width: 35px;
+  height: 35px;
+  border: 1px solid black;
+}
+
+.page1 {
+  width: 35px;
+  height: 35px;
+  border: 1px solid black;
 }
 /*# sourceMappingURL=main.css.map */

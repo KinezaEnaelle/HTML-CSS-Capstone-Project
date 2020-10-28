@@ -11,6 +11,7 @@
 .heading-container {
   margin: 0 auto;
   width: 95%;
+  padding-top: 10px;
 }
 
 .heading-container h4 {
@@ -29,14 +30,9 @@
   font-size: 35px;
   color: #383838;
 }
-.stilleto{
-  width: 95%;
-  height: 340px;
-  object-fit: cover;
-}
 .brown-shoes{
-  width: 95%;
-  height: 340px;
+  width: 97%;
+  height: 300px !important; 
 }
 .card-stilleto{
   width: 95%;
@@ -54,7 +50,7 @@
   max-width: 100%;
 }
 .card {
-  width: 95%;
+  width: 97%;
   height: 150px;
   font-size: 18px;
 }
@@ -78,4 +74,11 @@
 
 .company {
   color: #888;
+}
+.product-icon{
+  width: 40px;
+  height: 28px;
+}
+.middle{
+  width: 70%;
 }
