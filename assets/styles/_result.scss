@@ -1,13 +1,14 @@
 .result-section {
   background-color: #f6f6f6;
+  font-family: "Gotham Rounded", sans-serif;
 }
 .result-container{
   display: flex;
   justify-content: space-between;
 }
 .title {
-  font-size: 15px;
-  margin: 0 250px 10px 250px;
+  font-size: 18px;
+  font-family: "Nimbus", sans-serif;
 }
 .result-image{
   width: 262px;
@@ -15,42 +16,40 @@
 }
 .box{
   width: 60%;
-  border: 1px solid black;
+  border-right: 1px solid #888888;
+  border-left: 1px solid #888888;
   margin-right: 20px;
 }
 .result-wrapper{
-  margin-left: 30px;
+  margin-left: 15px;
 }
 .result-display{
-  padding-left: 20px;
+  padding-left: 10px;
+}
+.date{
+  font-family: "Pragmatica", sans-serif;
+}
+.pagination{
+  border-top: 1px solid #888;
 }
 .page1{
   width: 35px;
   height: 35px;
-  border: 1px solid black;
+  border: 1px solid #888888;
+  margin-right: 15px;
+  background-color: white;
+  border-radius: 3px;
+  font-weight: 500;
 }
-.page1{
+.page2{
   width: 35px;
   height: 35px;
-  border: 1px solid black;
+  border: 1px solid #f6f6f6;
+  margin-right: 15px;
+  background-color: #d35266;
+  color: white;
+  border-radius: 3px;
 }
-.page1{
-  width: 35px;
-  height: 35px;
-  border: 1px solid black;
-}
-.page1{
-  width: 35px;
-  height: 35px;
-  border: 1px solid black;
-}
-.page1{
-  width: 35px;
-  height: 35px;
-  border: 1px solid black;
-}
-.page1{
-  width: 35px;
-  height: 35px;
-  border: 1px solid black;
+.page3{
+  margin-right: 15px;
 }

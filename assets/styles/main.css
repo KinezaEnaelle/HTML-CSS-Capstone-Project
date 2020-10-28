@@ -5,7 +5,7 @@ body {
   height: auto;
   line-height: 1.5;
   overflow-x: hidden;
-  font-family: "Roboto", serif;
+  font-family: "Gotham rounded", sans-serif;
   min-width: 350px;
 }
 
@@ -105,6 +105,7 @@ body {
 .search-section {
   background-color: #d35266;
   border-bottom: 2px solid #d35266;
+  font-family: "Gotham rounded", sans-serif;
 }
 
 .search-container {
@@ -177,7 +178,7 @@ body {
 }
 
 .description p {
-  font-size: 15px;
+  font-size: 17px;
   color: #888;
 }
 
@@ -314,6 +315,7 @@ body {
 .footer-container {
   width: 100%;
   margin: 0 auto;
+  font-family: "Nimbus", sans-serif;
 }
 
 .logo-footer a {
@@ -357,7 +359,7 @@ body {
 .country-select {
   padding: 10px;
   border: 1px solid #888888;
-  width: 50.5%;
+  width: 54%;
   height: 80%;
   margin-left: 40px;
   margin-bottom: 0.5rem;
@@ -386,6 +388,7 @@ body {
 
 .result-section {
   background-color: #f6f6f6;
+  font-family: "Gotham Rounded", sans-serif;
 }
 
 .result-container {
@@ -398,8 +401,8 @@ body {
 }
 
 .title {
-  font-size: 15px;
-  margin: 0 250px 10px 250px;
+  font-size: 18px;
+  font-family: "Nimbus", sans-serif;
 }
 
 .result-image {
@@ -409,51 +412,78 @@ body {
 
 .box {
   width: 60%;
-  border: 1px solid black;
+  border-right: 1px solid #888888;
+  border-left: 1px solid #888888;
   margin-right: 20px;
 }
 
 .result-wrapper {
-  margin-left: 30px;
+  margin-left: 15px;
 }
 
 .result-display {
-  padding-left: 20px;
+  padding-left: 10px;
+}
+
+.date {
+  font-family: "Pragmatica", sans-serif;
+}
+
+.pagination {
+  border-top: 1px solid #888;
 }
 
 .page1 {
   width: 35px;
   height: 35px;
-  border: 1px solid black;
+  border: 1px solid #888888;
+  margin-right: 15px;
+  background-color: white;
+  border-radius: 3px;
+  font-weight: 500;
 }
 
-.page1 {
+.page2 {
   width: 35px;
   height: 35px;
-  border: 1px solid black;
+  border: 1px solid #f6f6f6;
+  margin-right: 15px;
+  background-color: #d35266;
+  color: white;
+  border-radius: 3px;
 }
 
-.page1 {
-  width: 35px;
-  height: 35px;
-  border: 1px solid black;
+.page3 {
+  margin-right: 15px;
 }
 
-.page1 {
-  width: 35px;
-  height: 35px;
-  border: 1px solid black;
+@font-face {
+  font-family: "Gotham Rounded";
+  src: url("/Fonts/Gotham-Rounded-Light/Gotham-Rounded-Light.otf") format("opentype");
+  font-weight: 300;
 }
 
-.page1 {
-  width: 35px;
-  height: 35px;
-  border: 1px solid black;
+@font-face {
+  font-family: "Nimbus ultra";
+  src: url("/Fonts/Nimbus-Sans-D-OT-Ultra-Light_32757.ttf") format("truetype");
+  font-weight: 300;
 }
 
-.page1 {
-  width: 35px;
-  height: 35px;
-  border: 1px solid black;
+@font-face {
+  font-family: "Iciel";
+  src: url("/Fonts/iCiel-fonts/iCielParisSerif-Bold.otf") format("opentype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Nimbus";
+  src: url("/Fonts/Nimbus-Sans-D-OT-Light_32752.ttf") format("truetype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Pragmatica";
+  src: url("/Fonts/PragmaticaMedium.otf") format("opentype");
+  font-weight: 300;
 }
 /*# sourceMappingURL=main.css.map */
