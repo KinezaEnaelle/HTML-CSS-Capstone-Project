@@ -480,6 +480,12 @@ body {
   font-size: 18px;
 }
 
+@media only screen and (min-width: 0) and (max-width: 767px) {
+  .right-nav {
+    display: none;
+  }
+}
+
 @font-face {
   font-family: "Gotham Rounded";
   src: url("/Fonts/Gotham-Rounded-Light/Gotham-Rounded-Light.otf") format("opentype");

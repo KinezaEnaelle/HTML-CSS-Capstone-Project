@@ -5,33 +5,36 @@
 @import "_product";
 @import "_footer";
 @import "_result";
+@import "_max768";
+
 
 @font-face {
-    font-family: "Gotham Rounded";
-    src: url("/Fonts/Gotham-Rounded-Light/Gotham-Rounded-Light.otf") format("opentype");
-    font-weight: 300;
-  }
-  
-@font-face{
-    font-family:  "Nimbus ultra";
-    src: url("/Fonts/Nimbus-Sans-D-OT-Ultra-Light_32757.ttf") format("truetype");
-    font-weight: 300;
+  font-family: "Gotham Rounded";
+  src: url("/Fonts/Gotham-Rounded-Light/Gotham-Rounded-Light.otf")
+    format("opentype");
+  font-weight: 300;
 }
 
-@font-face{
-    font-family: "Iciel";
-    src: url("/Fonts/iCiel-fonts/iCielParisSerif-Bold.otf") format("opentype");
-    font-weight: 300;
+@font-face {
+  font-family: "Nimbus ultra";
+  src: url("/Fonts/Nimbus-Sans-D-OT-Ultra-Light_32757.ttf") format("truetype");
+  font-weight: 300;
 }
 
-@font-face{
-    font-family: "Nimbus";
-    src: url("/Fonts/Nimbus-Sans-D-OT-Light_32752.ttf") format("truetype");
-    font-weight: 300;
+@font-face {
+  font-family: "Iciel";
+  src: url("/Fonts/iCiel-fonts/iCielParisSerif-Bold.otf") format("opentype");
+  font-weight: 300;
 }
 
-@font-face{
-    font-family: "Pragmatica";
-    src: url("/Fonts/PragmaticaMedium.otf") format("opentype");
-    font-weight: 300;
+@font-face {
+  font-family: "Nimbus";
+  src: url("/Fonts/Nimbus-Sans-D-OT-Light_32752.ttf") format("truetype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Pragmatica";
+  src: url("/Fonts/PragmaticaMedium.otf") format("opentype");
+  font-weight: 300;
 }
