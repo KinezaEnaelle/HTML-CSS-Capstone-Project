@@ -3,10 +3,15 @@
 }
 
 .shoes {
-  width: 282px;
-  height: 280px;
+  width: 95%;
+  height: 54%;
+  object-fit: cover;
 }
-
+.khaki{
+  width: 282px;
+  height: 250px;
+  object-fit: cover;
+}
 .description h4 {
   color: #d35266;
   font-size: 20px;

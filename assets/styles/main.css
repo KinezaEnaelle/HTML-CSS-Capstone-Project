@@ -152,8 +152,17 @@ body {
 }
 
 .shoes {
+  width: 95%;
+  height: 54%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.khaki {
   width: 282px;
-  height: 280px;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .description h4 {
@@ -207,11 +216,13 @@ body {
 }
 
 .product-section hr {
-  margin: 20px 250px 50px 250px;
+  margin: 0 auto;
+  width: 95%;
 }
 
 .heading-container {
-  margin: 0 250px 0 250px;
+  margin: 0 auto;
+  width: 95%;
 }
 
 .heading-container h4 {
@@ -231,6 +242,23 @@ body {
   color: #383838;
 }
 
+.stilleto {
+  width: 95%;
+  height: 340px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.brown-shoes {
+  width: 95%;
+  height: 340px;
+}
+
+.card-stilleto {
+  width: 95%;
+  height: 150px;
+}
+
 .product-wrapper {
   margin: 0 auto;
   width: 95%;
@@ -247,7 +275,7 @@ body {
 }
 
 .card {
-  width: 270px;
+  width: 95%;
   height: 150px;
   font-size: 18px;
 }
