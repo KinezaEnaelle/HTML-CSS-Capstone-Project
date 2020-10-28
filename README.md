@@ -4,20 +4,33 @@
 
 > This project is part of Microverse HTML/CSS curriculum
 
-![screenshot](./assets/images/project-shoot.jpg)
-This project is the last project of HTML/CSS Curriculum at Microverse. In this project, I used Float, Grid, and Flex to position elements. I as well used Bootstrap and SASS for styling elements. It is an online shop for high heels which has two pages (Home page and Result page)
-It has a navbar, a main section and a footer.
+![screenshot]()
+This project is the last project of HTML/CSS Curriculum at Microverse. In this project, two pages were build which include the following:
+
+- Home page [index.html]()
+- Result page [result.html]()
+
+Each of these 2 pages has 2 breaking points
+
+- Mobile screens: up to 768px
+- Tablet and Desktop screen: up to 1024px
+
+I used the following as part of the project requirements
+
+- Typography
+- Layout
+- Colors
 
 ## Built With
 
-- HTML/CSS/SCSS
+- HTML/CSS/SASS(SCSS)
 - Fontawesome library
 - Iconify library
 - Bootstrap
 
 ## Live Demo
 
-[Live Demo Link](microversecapstone.netlify.app)
+[Live Demo Link]()
 
 ## Getting Started
 
@@ -62,4 +75,10 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Thanks to stand-up team for raising issues and giving constructive critics out
-- Thanks to Mohammed Awad on Behance.
+- Thanks to [Mohammed Awad on Behance](https://www.behance.net/M_Awad).
+- Iconify
+- Gotham Font Family
+- Gotham Rounded Light
+- Nimbus Sans Light
+- Pragmatica Medium
+- Free Sans Bold

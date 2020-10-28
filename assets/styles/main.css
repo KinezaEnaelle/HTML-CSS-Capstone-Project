@@ -484,6 +484,17 @@ body {
   .right-nav {
     display: none;
   }
+  .purchase {
+    padding-bottom: 20px;
+  }
+  .bottom-footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .bottom-footer .copyright {
+    font-size: 12px;
+  }
 }
 
 @font-face {
