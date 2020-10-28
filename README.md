@@ -1,13 +1,13 @@
-
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
- ## HTML-CSS-Capstone-Project
+## HTML-CSS-Capstone-Project
 
 > This project is part of Microverse HTML/CSS curriculum
 
 ![screenshot](./assets/images/project-shoot.jpg)
 This project is the last project of HTML/CSS Curriculum at Microverse. In this project, I used Float, Grid, and Flex to position elements. I as well used Bootstrap and SASS for styling elements. It is an online shop for high heels which has two pages (Home page and Result page)
 It has a navbar, a main section and a footer.
+
 ## Built With
 
 - HTML/CSS/SCSS

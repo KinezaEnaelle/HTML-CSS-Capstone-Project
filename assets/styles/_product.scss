@@ -1,5 +1,6 @@
 .product-section {
   background-color: #f6f6f6;
+  max-width: 100%;
 
   hr {
     margin: 20px 250px 50px 250px;
@@ -26,11 +27,17 @@
   font-size: 35px;
   color: #383838;
 }
-
 .product-wrapper {
-  margin: 0 250px 0 250px;
-}
+  margin: 0 auto ;
+  width: 95%;
+  display: grid;
+  grid-template-columns: 1.5fr 1.5fr 1.5fr 1.5fr;
+  grid-template-rows: 1fr;
 
+}
+.product-image{
+  max-width: 100%;
+}
 .card {
   width: 270px;
   height: 150px;

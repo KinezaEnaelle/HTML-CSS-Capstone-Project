@@ -203,6 +203,7 @@ body {
 
 .product-section {
   background-color: #f6f6f6;
+  max-width: 100%;
 }
 
 .product-section hr {
@@ -231,7 +232,18 @@ body {
 }
 
 .product-wrapper {
-  margin: 0 250px 0 250px;
+  margin: 0 auto;
+  width: 95%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1.5fr 1.5fr 1.5fr 1.5fr;
+      grid-template-columns: 1.5fr 1.5fr 1.5fr 1.5fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+}
+
+.product-image {
+  max-width: 100%;
 }
 
 .card {
