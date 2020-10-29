@@ -27,6 +27,10 @@ body {
 
 .logo-heading {
   font-size: 20px;
+  a{
+    color: #d35266;
+    text-decoration: none;
+  }
 }
 
 .logo {
@@ -43,6 +47,7 @@ body {
 
 .right-nav {
   margin-right: 200px;
+  align-items: center;
 }
 
 .profile {
@@ -57,12 +62,12 @@ body {
   padding-top: 2px;
 }
 
-.nav-links {
+.navbar-nav {
   padding-top: 6px;
 }
 
 .home {
-  color: #d35266;
+  color: #d35266 !important;
   font-size: 15px;
   padding-top: 2px;
 }
@@ -70,27 +75,28 @@ body {
 .text {
   color: white;
   font-size: 15px;
+  padding-top: 5px;
 }
 
 .post {
   background-color: #d35266;
   color: white;
 }
-
-.mail {
+.newsletter{
   position: relative;
-  color: white;
-  font-size: 25px;
 }
-
+.mail {
+  color: white;
+  font-size: 35px !important;
+}
 .mail-num {
   position: absolute;
-  align-items: center;
-  top: 0;
-  bottom: 3px;
   width: 1.3rem;
   height: 1.3rem;
+  top: 13px;
+  right: 368px;
   color: white;
   background-color: #d35266;
   font-size: 15px;
+  padding: 7px;
 }
