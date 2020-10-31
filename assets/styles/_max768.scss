@@ -2,4 +2,30 @@
     .right-nav{
         display: none;
     }
+    .ads-section{
+       width: 80%;
+       margin: 0 auto;
+    }
+    .purchase{
+        margin-bottom: 20px;
+    }
+    .product-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .bottom-footer{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .checkbox-section{
+        display: none;
+    }
+    .box{
+        border: none;
+    }
+    .result-container{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
 }

@@ -27,45 +27,47 @@
   </head>
   <body>
     <header>
-      <!--NAVBAR SECTION-->
-      <nav class="nav">
-        <div class="left-nav d-flex">
-          <div class="logo-heading">
-            <img src="assets/images/logo.jpg" alt="logo" class="logo pr-5" />
-            <a href="index.html" class="text-white pr-5">HEELZ</a>
-          </div>
-          <ul
-            class="nav-links textbar-bold list-unstyled d-flex justify-content-between"
-          >
-            <li class="text-item pr-3">
+      <nav class="navbar nav navbar-expand-lg navbar-light ">
+       <div class="left-nav d-flex">
+         <div class="logo-heading">
+           <img src="assets/images/logo.jpg" alt="logo" class="logo pr-5">
+           <a class=" pr-5" href="#">HEELZ</a>
+         </div>
+       </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav d-flex justify-content-between">
+            <li class="nav-item active d-flex pr-3">
               <span
                 class="iconify home"
                 data-icon="bi:house-door"
                 data-inline="false"
-              ></span
-              ><a href="#" class="home"> HOME</a>
+              ></span>
+              <a class="home" href="#">HOME <span class="sr-only">(current)</span></a>
             </li>
-            <li class="text-item pr-3">
+            <li class="nav-item d-flex pr-3">
               <span
                 class="iconify"
                 data-icon="codicon:gift"
                 data-inline="false"
-              ></span
-              ><a href="#" class="text"> COLLECTIONS</a>
+              ></span>
+              <a class="text" href="#">COLLECTIONS</a>
             </li>
-            <li class="text-item pr-3">
+            <li class="nav-item d-flex pr-3">
               <span
                 class="iconify"
                 data-icon="bi:cart"
                 data-inline="false"
-              ></span
-              ><a href="#" class="text"> CART</a>
+              ></span>
+              <a class="text" href="#">CART</a>
             </li>
           </ul>
           <button type="button" class="post btn btn-md">POST AN AD</button>
         </div>
-        <div class="right-nav d-flex justify-content-between">
-          <div class="pr-3">
+        <div class="right-nav">
+          <div class="pr-3 newsletter">
             <span
               class="iconify mail"
               data-icon="bx:bx-envelope"
@@ -87,12 +89,15 @@
         </div>
       </nav>
     </header>
+    <!--MAIN SECTION-->
     <main>
       <!--SEARCH SECTION-->
-      <section class="search-section m-auto">
-        <div class="search-container">
+      <section class="search-section">
+        <div class="search-container m-auto">
+          <div class="search-heading m-auto">
           <h2>HEELZ</h2>
           <p>Search around 500,000 items are waiting to be sold!</p>
+        </div>
           <form class="search-form">
             <select name="categories" class="search-select">
               <option value="stilletos">Stilletos</option>
