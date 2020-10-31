@@ -5,18 +5,23 @@
 }
 
 .search-container {
+  width: 70%;
+
+  .search-heading {
     width: 70%;
     align-items: center;
+    
+    h2 {
+      color: white;
+      padding-top: 40px;
+      margin-left: 350px;
+    }
 
-  h2 {
-    color: white;
-    align-items: center;
-    padding-top: 40px;
-  }
-
-  p {
-    color: white;
-    font-size: 15px;
+    p {
+      color: white;
+      font-size: 15px;
+      margin-left: 250px;
+    }
   }
 }
 
@@ -24,23 +29,27 @@
   width: 245px;
   height: 45px;
   margin-right: 0.1rem;
+  padding-left: 10px;
 }
 
 .search-input {
   width: 245px;
   height: 45px;
   margin-right: 0.1rem;
+  padding-left: 10px;
 }
 
 .search-input2 {
   width: 245px;
   height: 45px;
   margin-right: 0.8rem;
+  padding-left: 10px;
 }
 .search-form {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .search-button {

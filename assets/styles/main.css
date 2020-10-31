@@ -120,40 +120,46 @@ body {
 
 .search-container {
   width: 70%;
+}
+
+.search-container .search-heading {
+  width: 70%;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
-.search-container h2 {
+.search-container .search-heading h2 {
   color: white;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   padding-top: 40px;
+  margin-left: 350px;
 }
 
-.search-container p {
+.search-container .search-heading p {
   color: white;
   font-size: 15px;
+  margin-left: 250px;
 }
 
 .search-select {
   width: 245px;
   height: 45px;
   margin-right: 0.1rem;
+  padding-left: 10px;
 }
 
 .search-input {
   width: 245px;
   height: 45px;
   margin-right: 0.1rem;
+  padding-left: 10px;
 }
 
 .search-input2 {
   width: 245px;
   height: 45px;
   margin-right: 0.8rem;
+  padding-left: 10px;
 }
 
 .search-form {
@@ -166,6 +172,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-bottom: 20px;
 }
 
 .search-button {
