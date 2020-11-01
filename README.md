@@ -4,11 +4,12 @@
 
 > This project is part of Microverse HTML/CSS curriculum
 
-![screenshot]()
+![screenshot](./assets/images/screenshot.png)
 This project is the last project of HTML/CSS Curriculum at Microverse. In this project, two pages were build which include the following:
 
 - Home page [index.html]()
 - Result page [result.html]()
+- Link to the mockup generator [Mockup Generator]()
 
 Each of these 2 pages has 2 breaking points
 
