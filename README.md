@@ -4,7 +4,9 @@
 
 > This project is part of Microverse HTML/CSS curriculum
 
-![screenshot](assets/images/screenshot.png)
+![screenshot](/assets/images/screenshot.png)
+![screenshot](/assets/images/screenshot2.png)
+
 This project is the last project of HTML/CSS Curriculum at Microverse. In this project, two pages were build which include the following:
 
 - Home page [index.html]()
