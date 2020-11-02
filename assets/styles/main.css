@@ -510,6 +510,7 @@ body {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: start;
+    margin-left: 30px;
   }
   .search-heading h2 {
     -webkit-box-align: start;
