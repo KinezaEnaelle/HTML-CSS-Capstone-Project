@@ -9,8 +9,8 @@
 
 This project is the last project of HTML/CSS Curriculum at Microverse. In this project, two pages were build which include the following:
 
-- Home page [index.html]()
-- Result page [result.html]()
+- Home page [index.html](https://jolly-jennings-cdc1e9.netlify.app/index.html)
+- Result page [result.html](https://jolly-jennings-cdc1e9.netlify.app/result.html)
 
 Each of these 2 pages has 2 breaking points
 
@@ -32,7 +32,7 @@ I used the following as part of the project requirements
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://jolly-jennings-cdc1e9.netlify.app)
 
 ## Getting Started
 
