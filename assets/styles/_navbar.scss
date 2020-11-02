@@ -8,6 +8,14 @@ body {
   min-width: 350px;
 }
 
+.logo-heading {
+  font-size: 20px;
+
+  a {
+    color: #d35266;
+    text-decoration: none;
+  }
+}
 .nav {
   padding: 10px;
   margin: 0 auto;
@@ -23,14 +31,6 @@ body {
     &:hover {
       color: #888;
     }
-  }
-}
-
-.logo-heading {
-  font-size: 20px;
-  a {
-    color: #d35266;
-    text-decoration: none;
   }
 }
 
@@ -83,13 +83,16 @@ body {
   background-color: #d35266;
   color: white;
 }
+
 .newsletter {
   position: relative;
 }
+
 .mail {
   color: white;
   font-size: 35px !important;
 }
+
 .mail-num {
   position: absolute;
   top: 3px;
