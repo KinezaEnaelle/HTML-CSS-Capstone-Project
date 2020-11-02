@@ -15,6 +15,7 @@ body {
   border-bottom: 2px solid #383838;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 
   a {
     text-decoration: none;
@@ -91,12 +92,10 @@ body {
 }
 .mail-num {
   position: absolute;
-  width: 1.3rem;
-  height: 1.3rem;
-  top: 13px;
-  right: 368px;
+  top: 3px;
+  right: 20px;
   color: white;
   background-color: #d35266;
-  font-size: 15px;
-  padding: 7px;
+  font-size: 12px;
+  padding: 1px;
 }

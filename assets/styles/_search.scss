@@ -8,19 +8,17 @@
   width: 70%;
 
   .search-heading {
-    width: 70%;
+    justify-content: center;
     align-items: center;
     
     h2 {
       color: white;
       padding-top: 40px;
-      margin-left: 350px;
     }
 
     p {
       color: white;
       font-size: 15px;
-      margin-left: 250px;
     }
   }
 }
