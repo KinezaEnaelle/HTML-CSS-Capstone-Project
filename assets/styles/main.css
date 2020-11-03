@@ -188,6 +188,7 @@ body {
 
 .ads-section {
   font-family: "Nimbus", sans-serif;
+  max-width: 100%;
 }
 
 .khaki {
@@ -586,23 +587,47 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: start;
-    margin-left: 30px;
+    margin: 0 auto;
+  }
+  .search-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .search-heading {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0 auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .search-heading h2 {
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    text-align: center;
+    font-weight: 700;
+  }
+  .search-heading p {
+    text-align: center;
   }
   .search-select,
   .search-input,
   .search-input2 {
-    margin-bottom: 3px;
+    margin-bottom: 0.1rem;
     width: 300px;
     height: 35px;
   }
@@ -615,23 +640,11 @@ body {
     text-align: center;
   }
   .ads-section {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
   }
   .purchase {
     margin-bottom: 20px;
-  }
-  .search-form {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
   }
   .product-wrapper {
     display: -webkit-box;
@@ -652,8 +665,8 @@ body {
     margin-bottom: 20px;
   }
   .middle {
-    width: 100%;
-    margin: auto;
+    width: 70%;
+    margin: 0 auto;
   }
   .bottom-footer {
     -ms-flex-wrap: wrap;

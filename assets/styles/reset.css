@@ -27,7 +27,9 @@ aside {
 html,
 body {
   height: 100%;
+  max-width: 100%;
   width: 100%;
+  margin: 0 auto;
   font-size: 100%;
   line-height: 1;
   font-size: 14px;
