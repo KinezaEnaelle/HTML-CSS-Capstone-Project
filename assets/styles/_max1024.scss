@@ -1,4 +1,22 @@
 @media (max-width: 1024px) {
+ .logo{
+   margin-right: 4px;
+ }
+  .logo-link{
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 20px;
+  }
+  .nav-items{
+    align-items: center;
+  }
+  .nav-item{
+    margin-right: 10px;
+  }
+  .nav{
+    display: flex;
+    justify-content: space-between;
+  }
   .right-nav {
     display: none;
   }

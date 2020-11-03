@@ -10,7 +10,7 @@ body {
 }
 
 .logo-heading {
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .logo-heading a {
@@ -493,7 +493,30 @@ body {
 }
 
 @media (max-width: 767px) {
+  .text {
+    font-size: 14px;
+  }
+  .logo {
+    margin-right: 3px;
+  }
+  .logo-link {
+    padding: 6px;
+    font-size: 18px;
+    font-weight: 700;
+  }
   .right-nav {
+    display: none;
+  }
+  .post {
+    display: none;
+  }
+  .nav-items {
+    padding: 6px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .nav-items .iconify {
     display: none;
   }
   .search-container {
@@ -608,6 +631,30 @@ body {
 }
 
 @media (max-width: 1024px) {
+  .logo {
+    margin-right: 4px;
+  }
+  .logo-link {
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 20px;
+  }
+  .nav-items {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .nav-item {
+    margin-right: 10px;
+  }
+  .nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
   .right-nav {
     display: none;
   }

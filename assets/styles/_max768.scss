@@ -1,8 +1,29 @@
 @media (max-width: 767px) {
+  .text {
+    font-size: 14px;
+  }
+  .logo {
+    margin-right: 3px;
+  }
+  .logo-link {
+    padding: 6px;
+    font-size: 18px;
+    font-weight: 700;
+  }
   .right-nav {
     display: none;
   }
+  .post {
+    display: none;
+  }
+  .nav-items {
+    padding: 6px;
+    align-items: center;
 
+    .iconify {
+      display: none;
+    }
+  }
   .search-container {
     display: flex;
     flex-direction: column;
