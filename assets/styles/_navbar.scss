@@ -1,0 +1,106 @@
+body {
+  position: relative;
+  width: 100%;
+  height: auto;
+  line-height: 1.5;
+  overflow-x: hidden;
+  font-family: "Gotham rounded", sans-serif;
+  min-width: 350px;
+}
+
+.logo-heading {
+  font-size: 16px;
+
+  a {
+    color: #d35266;
+    text-decoration: none;
+  }
+}
+
+.nav {
+  padding: 10px;
+  margin: 0 auto;
+  background: #383838;
+  border-bottom: 2px solid #383838;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  a {
+    text-decoration: none;
+
+    &:hover {
+      color: #888;
+    }
+  }
+}
+
+.logo {
+  width: 41px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #d35266;
+  color: #d35266;
+}
+
+.left-nav {
+  margin-left: 4px;
+}
+
+.right-nav {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.profile {
+  width: 41px;
+  height: 43px;
+  border-radius: 50%;
+}
+
+.iconify {
+  color: white;
+  font-size: 15px;
+  padding-top: 2px;
+}
+
+.navbar-nav {
+  padding-top: 6px;
+}
+
+.home {
+  color: #d35266 !important;
+  font-size: 15px;
+  padding-top: 2px;
+}
+
+.text {
+  color: white;
+  font-size: 15px;
+  padding-top: 5px;
+}
+
+.post {
+  background-color: #d35266;
+  color: white;
+}
+
+.newsletter {
+  position: relative;
+}
+
+.mail {
+  color: white;
+  font-size: 35px !important;
+}
+
+.mail-num {
+  position: absolute;
+  top: 3px;
+  right: 20px;
+  color: white;
+  background-color: #d35266;
+  font-size: 12px;
+  padding: 1px;
+}

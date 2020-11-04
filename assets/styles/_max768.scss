@@ -1,0 +1,147 @@
+@media (max-width: 767px) {
+  .text {
+    font-size: 12px;
+  }
+
+  .logo-link {
+    font-size: 15px;
+    font-weight: 700;
+    padding: 5px;
+  }
+
+  .right-nav {
+    display: none;
+  }
+
+  .post {
+    display: none;
+  }
+
+  .nav-items {
+    padding: 5px;
+    align-items: center;
+
+    .iconify {
+      display: none;
+    }
+  }
+
+  // SEARCH SECTION
+
+  .search-container {
+    display: flex;
+    flex-direction: column;
+    // justify-content: space-between;
+    align-items: start;
+    margin: 0 auto;
+  }
+
+  .search-form {
+    display: flex;
+    flex-direction: column;
+    // justify-content: space-between;
+    // align-items: start;
+    // margin-left: 30px;
+  }
+
+  .search-heading {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+  }
+
+  .search-heading h2 {
+    text-align: center;
+    font-weight: 700;
+  }
+
+  .search-heading p {
+    text-align: center;
+  }
+
+  .search-select,
+  .search-input,
+  .search-input2 {
+    margin-bottom: 0.1rem;
+    width: 300px;
+    height: 35px;
+  }
+
+  .search-input2 {
+    margin-left: 10px;
+  }
+
+  .search-button {
+    width: 300px;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  // ADS SECTION
+
+  .ads-section {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .purchase {
+    margin-bottom: 20px;
+  }
+
+  // .search-form {
+  //   display: flex;
+  //   flex-direction: column;
+  //   justify-content: space-between;
+  // }
+
+  // PRODUCT SECTION
+
+  .product-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .product-image {
+    margin-bottom: 20px;
+  }
+
+  .middle {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .bottom-footer {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .copyright p {
+    padding-left: 3px;
+    font-size: 9px;
+  }
+
+  .country-select {
+    width: 70%;
+  }
+
+  .checkbox-section {
+    display: none;
+  }
+
+  .box {
+    border: none;
+  }
+
+  .result-container {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .description p {
+    padding-left: 5px;
+  }
+}

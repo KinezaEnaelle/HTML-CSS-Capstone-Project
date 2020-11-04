@@ -1,0 +1,91 @@
+@media (min-width: 1024px) {
+  .logo {
+    margin-right: 4px;
+  }
+
+  .logo-link {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  // .nav-items{
+  //   align-items: center;
+  // }
+  .nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .right-nav {
+    margin-right: 22px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .left-nav {
+    margin-left: 0;
+  }
+
+  .search-container,
+  .search-heading {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  .search-heading {
+    h2,
+    p {
+      margin-left: 0;
+    }
+  }
+
+  .search-form {
+    width: 90%;
+    margin: auto;
+    padding-bottom: 20px;
+  }
+
+  .middle {
+    width: 90%;
+  }
+
+  .description p {
+    padding-top: 2.5rem;
+    font-size: 17px;
+    color: #888;
+  }
+
+  .copyright {
+    font-size: 12px;
+    margin: 0 auto;
+  }
+
+  .country-select,
+  .language-select,
+  .currency-select {
+    width: 90%;
+  }
+
+  .social-icons {
+    margin: 0 auto;
+    font-size: 20px;
+    padding-bottom: 25px;
+  }
+
+  .box {
+    border: none;
+    width: 100%;
+  }
+
+  .checkbox-section {
+    display: none;
+  }
+}
