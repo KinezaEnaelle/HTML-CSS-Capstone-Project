@@ -2,14 +2,18 @@
   background-color: #d35266;
   border-bottom: 2px solid #d35266;
   font-family: "Gotham rounded", sans-serif;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
 }
-
 .search-container {
-  width: 70%;
+  width: 83%;
 
   .search-heading {
     justify-content: center;
     align-items: center;
+    display: flex;
+    flex-direction: column;
 
     h2 {
       color: white;

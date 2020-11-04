@@ -44,14 +44,13 @@ body {
 }
 
 .left-nav {
-  margin-left: 250px;
+  margin-left: 4px;
 }
-
 .right-nav {
-  margin-right: 200px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
-
 .profile {
   width: 41px;
   height: 43px;
